@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+<tiles-definitions>
+	<definition name="dashboard" extends="mainTemplate">
+		<put-attribute name="content"
+			value="/WEB-INF/views/page/dashboard.jsp" />
+	</definition>
+	<definition name="dash" extends="mainTemplate">
+		<put-attribute name="content"
+			value="/WEB-INF/views/page/dash.jsp" />
+	</definition>
+	<definition name="templist" extends="mainTemplate">
+		<put-attribute name="content"
+			value="/WEB-INF/views/page/templist.jsp" />
+	</definition>
+	<definition name="colist" extends="mainTemplate">
+		<put-attribute name="content"
+			value="/WEB-INF/views/page/colist.jsp" />
+	</definition>
+	<definition name="o3list" extends="mainTemplate">
+		<put-attribute name="content"
+			value="/WEB-INF/views/page/o3list.jsp" />
+	</definition>
+	<definition name="cautiouslist" extends="mainTemplate">
+		<put-attribute name="content"
+			value="/WEB-INF/views/page/cautiouslist.jsp" />
+	</definition>
+</tiles-definitions>
