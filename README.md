@@ -1,5 +1,3 @@
-# DCS-Intern
-
 ## :bulb:Gas & FineDust Monitoring
 
 데이터센터의 부식성 가스 및 미세먼지 모니터링
